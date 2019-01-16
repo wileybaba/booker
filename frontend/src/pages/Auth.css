@@ -1,0 +1,68 @@
+.auth-form {
+  background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 40%;
+	margin: 0 auto;
+
+
+	/*stacking fieldsets above each other*/
+	position: relative;
+
+}
+
+.form-control label,
+.form-control input {
+  width: 100%;
+  display: block;
+}
+
+.form-control input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+#email {
+  border-radius: .5rem;
+}
+
+#password {
+  border-radius: .5rem;
+}
+
+.form-actions button {
+  background: #496BF2;
+  font: inherit;
+  border: 1px solid #496BF2;
+  border-radius: 3px;
+  padding: 0.25rem 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+  color: white;
+  cursor: pointer;
+}
+
+.form-actions button:hover,
+.form-actions button:active {
+    background: #495BF2;
+    border-color: #495BF2;
+}
